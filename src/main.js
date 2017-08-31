@@ -33,6 +33,7 @@ var WorldDetailsEditorPage = require('./ui/pages/WorldDetailsEditorPage')
 
 import {ParseKeys} from './ParseKeys'
 Parse.initialize(ParseKeys.APP_ID, ParseKeys.JS_KEY)
+Parse.serverURL = 'https://shrouded-beyond-64667.herokuapp.com/parse'
 window.fbAsyncInit = function() {
   Parse.FacebookUtils.init({
     appId      : '366410923540952',
