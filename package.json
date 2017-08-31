@@ -42,9 +42,11 @@
     "webpack-dev-server": "1.12.1"
   },
   "scripts": {
-    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
-    "prod": "NODE_ENV=production node server.js",    
-    "postinstall": "webpack -p"
+    "postinstall": "webpack",
+    "start": "node server.js",
+    "dev": "webpack-dev-server",
+    "test": "jest",
+    "lint": "eslint . --ext .js || true"
   },
   "author": "Paul Carduner",
   "license": "MIT",
