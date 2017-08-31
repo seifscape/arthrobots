@@ -44,10 +44,7 @@
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "prod": "NODE_ENV=production node server.js",    
-    "postinstall": "webpack -p"    
-    // "dev": "webpack-dev-server",
-    // "test": "jest",
-    // "lint": "eslint . --ext .js || true"
+    "postinstall": "webpack -p"
   },
   "author": "Paul Carduner",
   "license": "MIT",
